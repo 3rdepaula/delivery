@@ -77,3 +77,23 @@ export const TextCategories = styled.Text`
 export const FigureCategories = styled.Text`
   font-size: 40px;
 `
+
+export const CardOffer = styled.View`
+  background-color: #fec602;
+  border-radius: 20px;
+  padding: 20px 0 20px 30px;
+  margin-top: 30px;
+`
+
+export const ContentCardText = styled.View`
+  max-width: 55%;
+`
+
+export const CardOfferTitle = styled.Text`
+  font-family: 'Poppins600SemiBold';
+  font-size: 17px;
+`
+
+export const CardOfferSubTitle = styled.Text`
+  font-family: 'Poppins400Regular';
+`

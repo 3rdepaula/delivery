@@ -16,7 +16,11 @@ import {
   TitleBold,
   CardCategories,
   TextCategories,
-  FigureCategories
+  FigureCategories,
+  CardOffer,
+  ContentCardText,
+  CardOfferTitle,
+  CardOfferSubTitle
 } from './styles'
 
 const FOODS = [
@@ -105,6 +109,12 @@ const Home = () => {
             keyExtractor={item => item.id}
           />
         </ContainerCategories>
+        <CardOffer>
+          <ContentCardText>
+            <CardOfferTitle>Only Today 30% OFF On Each Order!</CardOfferTitle>
+            <CardOfferSubTitle>Dude everything's on sale what are you waiting for?</CardOfferSubTitle>
+          </ContentCardText>
+        </CardOffer>
       </Main>
     </Container>
   )

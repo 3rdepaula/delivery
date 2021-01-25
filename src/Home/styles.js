@@ -10,6 +10,8 @@ export const Container = styled.View`
   padding-right: 10px;
 `
 
+export const ContainerScroll = styled.ScrollView``
+
 export const ContainerHeader = styled.View`
   flex-direction: row;
   justify-content: space-between;
@@ -49,6 +51,7 @@ export const Name = styled.Text`
 
 export const Main = styled.View`
   margin-top: 30px;
+  flex: 1;
 `
 
 export const ContainerCategories = styled.View`
@@ -96,4 +99,42 @@ export const CardOfferTitle = styled.Text`
 
 export const CardOfferSubTitle = styled.Text`
   font-family: 'Poppins400Regular';
+`
+
+export const ContainerPopular = styled.View`
+  margin-top: 25px;
+  padding-bottom: 10px;
+  flex: 1;
+`
+
+export const CardPopular = styled(RectButton)`
+  border-radius: 20px;
+  background-color: #f3f5f7;
+  margin-top: 10px;
+  padding: 20px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+`
+
+export const PopularTitle = styled.Text`
+  font-family: 'Poppins400Regular';
+  font-size: 15px;
+`
+
+export const PopularSubTitle = styled.Text`
+  font-family: 'Poppins600SemiBold';
+  font-size: 20px;
+`
+
+export const PopulaCalories = styled.Text`
+  font-family: 'Poppins400Regular';
+  opacity: 0.6;
+  margin-top: 5px;
+`
+
+export const PopularPrice = styled.Text`
+  font-family: 'Poppins600SemiBold';
+  font-size: 20px;
+  margin-top: 10px;
 `
